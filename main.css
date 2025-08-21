@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: mediumseagreen;
+    padding: 2px;
+    position: fixed;
+    top: 0;         
+    left: 0;        
+    width: 100%;       
+    z-index: 100;
+}
+
+header nav > a img {
+    width: 70px;
+    height: auto;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 16px;
+    border-radius: 24px;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.navlink:link,
+.navlink:visited {
+    color: white;
+}
+
+.navlink[href="#"] {
+    color: black;
+}
+
+.navlink:hover {
+    color: whitesmoke;
+}
+
+.navlink:active {
+    color: rgb(20, 28, 33);
+}
+
+/*main*/
+
+main {
+    margin-top: 100px;
+    padding: 20px;
+
+}
+
+.homepage {
+    text-align: center;
+    padding-bottom: 500px;
+}
+
+/* about */
+.about {
+    padding: 20px;
+    gap: 30px;
+}
+
+.about img {
+    margin: 20px;
+    float: left;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+}
+
+/* service */
+.service {
+    padding: 20px;
+    gap: 30px;
+}
+
+.service img {
+    margin: 20px;
+    float: right;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+}
+
+/* thingstodo */
+.thingstodo {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 20px;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.thingstodo img {
+    width: 500px;
+}
+
+/* gallery */
+
+.content {
+    display: flex;
+    gap: 20px;
+}
+
+.sidenav {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: bisque;
+    gap: 10px;
+    width: 300px;
+    height: 520px;
+    padding-top: 30px;
+}
+.gallery {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: 250px;
+}
+/*footer*/
+
+footer {
+    text-align: center;
+    background-color: mediumseagreen;
+
+}
+
+.navfoot {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    height: 80px;
+    padding-bottom: 10px;
+}
+
+footer .navfoot ul {
+    display: flex;
+    gap: 20px;
+}
